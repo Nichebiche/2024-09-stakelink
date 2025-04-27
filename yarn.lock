@@ -2463,10 +2463,6 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
-"ds-test@github:dapphub/ds-test":
-  version "1.0.0"
-  resolved "https://codeload.github.com/dapphub/ds-test/tar.gz/e282159d5170298eb2455a6c05280ab5a73a4ef0"
-
 eip55@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/eip55/-/eip55-2.1.1.tgz#28b743c4701ac3c811b1e9fe67e39cf1d0781b96"
@@ -2970,11 +2966,6 @@ for-each@^0.3.3:
   integrity sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==
   dependencies:
     is-callable "^1.1.3"
-
-forge-std@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/forge-std/-/forge-std-1.1.2.tgz#f4a0eda103538d56f9c563f3cd1fa2fd01bd9378"
-  integrity sha512-Wfb0iAS9PcfjMKtGpWQw9mXzJxrWD62kJCUqqLcyuI0+VRtJ3j20XembjF3kS20qELYdXft1vD/SPFVWVKMFOw==
 
 form-data-encoder@^2.1.2:
   version "2.1.4"
@@ -5189,13 +5180,10 @@ solidity-ast@^0.4.51:
   dependencies:
     array.prototype.findlast "^1.2.2"
 
-solidity-bytes-utils@^0.8.0:
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/solidity-bytes-utils/-/solidity-bytes-utils-0.8.2.tgz#763d6a02fd093e93b3a97b742e97d540e66c29bd"
-  integrity sha512-cqXPYAV2auhpdKSTPuqji0CwpSceZDu95CzqSM/9tDJ2MoMaMsdHTpOIWtVw31BIqqGPNmIChCswzbw0tHaMTw==
-  dependencies:
-    ds-test "github:dapphub/ds-test"
-    forge-std "^1.1.2"
+solidity-bytes-utils@^0.8.3:
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/solidity-bytes-utils/-/solidity-bytes-utils-0.8.3.tgz#e509fc41d9a6200395afaae2efd1525bd4cb2d7f"
+  integrity sha512-sbOHjKF9miqASaqYYC1vvxNnBrzA/wuFPQlOle7rZOSkDiFmCd5x8wQfx2vN95tNGfy8Cf1e5QumW8ZwcByBuQ==
 
 solidity-comments-extractor@^0.0.8:
   version "0.0.8"
